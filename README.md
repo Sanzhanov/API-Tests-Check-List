@@ -5,10 +5,13 @@
 * Only required fields are filled
 * Not all required fields are filled
 * No field is filled
-* Validation of data in the fields (correct and incorrect data)
 * Empty json
+* Validation of data in the fields (correct and incorrect data)
 
 ## GET requests
+* Request data by valid ID
+* Request data for a non-existent ID, but in a valid format
+* Request data for invalid ID
 * Completed list
 * Empty list (if possible)
 * Pagination in the list (limit, offset)
@@ -18,9 +21,6 @@
 * If offset is negative, the list of users is returned starting from the first position
 * If offset does not exist, an empty list of users is returned
 * List sorting
-* Request data by valid ID, check if correct data is returned
-* Request data for a non-existent ID, but in a valid format
-* Request data for invalid ID
 
 ## PUT requests
 * Update with correct data
