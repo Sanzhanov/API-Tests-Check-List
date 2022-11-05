@@ -23,11 +23,12 @@
 * List sorting
 
 ## PUT requests
-* Update with correct data
+* Update with valid ID
 * Update by non-existent ID
 * Update by invalid ID
-* Validation of fields (correct and incorrect data)
 * Partial update (not all fields are present in JSON)
+* Validation of fields (correct and incorrect data)
+
 ## DELETE requests
 * Deleting an existing object
 * Deleting an already deleted object
