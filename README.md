@@ -30,10 +30,10 @@
 * Validation of fields (correct and incorrect data)
 
 ## DELETE requests
-* Deleting an existing object
-* Deleting an already deleted object
-* Deletion by non-existent ID
-* Deletion by invalid ID
+* Removing of existing object
+* Removing of already deleted object
+* Removing by non-existent but valid ID
+* Removing by invalid ID
 * Removing and re-adding the same entity (if there are unique fields)
 
 1. Checking response statuses
