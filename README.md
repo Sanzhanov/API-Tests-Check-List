@@ -40,4 +40,4 @@
 2. Checking for all possible errors
 3. Other specific checks in case of complex logic
 
-**list in progress...*
+**list in progress, thetefore if you've found a mistake pls send me a pull request*
