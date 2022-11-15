@@ -10,7 +10,7 @@
 
 ## GET requests
 * Request data by valid ID
-* Request data for a non-existent ID, but in a valid format
+* Request data for a non-existent ID but in a valid format
 * Request data for invalid ID
 * Completed list
 * Empty list (if possible)
@@ -24,7 +24,7 @@
 
 ## PUT requests
 * Update with valid ID
-* Update by non-existent ID
+* Update by non-existent ID but in a valid format
 * Update by invalid ID
 * Partial update (not all fields are present in JSON)
 * Validation of fields (correct and incorrect data)
@@ -32,7 +32,7 @@
 ## DELETE requests
 * Removing of existing object
 * Removing of already deleted object
-* Removing by non-existent but valid ID
+* Removing by non-existent ID but in a valid format
 * Removing by invalid ID
 * Removing and re-adding the same entity (if there are unique fields)
 
