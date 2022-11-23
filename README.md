@@ -1,6 +1,7 @@
 # API-Tests-Check-List*
 
 ## POST requests
+
 * All fields filled with valid data
 * Only required fields are filled
 * Not all required fields are filled
@@ -9,6 +10,7 @@
 * Validation of data in the fields (correct and incorrect data)
 
 ## GET requests
+
 * Request data by valid ID
 * Request data for a non-existent ID but in a valid format
 * Request data for invalid ID
@@ -23,6 +25,7 @@
 * List sorting
 
 ## PUT requests
+
 * Update with valid ID
 * Update by non-existent ID but in a valid format
 * Update by invalid ID
@@ -30,11 +33,14 @@
 * Validation of fields (correct and incorrect data)
 
 ## DELETE requests
+
 * Removing of existing object
 * Removing of already deleted object
 * Removing by non-existent ID but in a valid format
 * Removing by invalid ID
 * Removing and re-adding the same entity (if there are unique fields)
+
+##Others
 
 1. Checking response statuses
 2. Checking for all possible errors
