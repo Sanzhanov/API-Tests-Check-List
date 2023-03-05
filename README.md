@@ -45,5 +45,6 @@
 1. Checking response statuses
 2. Checking for all possible errors
 3. Other specific checks in case of complex logic
+4. ...
 
 **list in progress, thetefore if you've found a mistake pls send me a pull request*
